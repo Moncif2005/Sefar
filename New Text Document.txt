@@ -1,0 +1,74 @@
+<nav class="navigaion">
+   			<input type="checkbox" id="nav-check">
+   			<a href="#information">Information</a>
+   			<a href="#pictures">Pictures</a>
+   			<a href="#contact">Contact</a>
+   		</nav>
+
+
+
+}
+.navigaion a{
+	color: #7C3C21;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 400;
+	padding-left: 20px;
+	padding: 0 15px;
+	border-radius: 15px 0;
+	
+}
+.navigaion a:hover{
+	background-color:#EC823A ;
+	transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+}
+.nar img{
+	padding-left: 600px;
+	width:100%;
+	transform: translateY(0px);
+	animation: float 6s ease-out infinite;
+
+}
+@keyframes float{
+	0%{
+		transform: translateX(0px);
+	}
+	50%{
+		transform: translateX(-40px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+<div class="gellery">
+                        <ul class="cards">
+                            <il>1</il>
+                            <il>2</il>
+                            <il>3</il>
+                            <il>4</il>
+                            <il>5</il>
+                            <il>6</il>
+                            <il>7</il>
+                            
+                        </ul>
+                    </div>
